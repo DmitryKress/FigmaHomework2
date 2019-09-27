@@ -13,8 +13,64 @@
     .navigation {
       display: flex;
       justify-content: flex-end;
-      .menu {
-        margin: 165px 93px;
+      .home {
+        position: absolute;
+        width: 52px;
+        height: 22px;
+        left: 845px;
+        top: 120px;
+        font-family: Libre Franklin;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 22px;
+        color: #ffffff;
+      }
+      .about {
+        position: absolute;
+        width: 53px;
+        height: 22px;
+        left: 1045px;
+        top: 120px;
+        font-family: Libre Franklin;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 22px;
+        color: #ffffff;
+      }
+      .skills {
+        position: absolute;
+        width: 44px;
+        height: 22px;
+        left: 1245px;
+        top: 120px;
+        font-family: Libre Franklin;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 22px;
+        color: #ffffff;
+      }
+      .portfolio {
+        position: absolute;
+        width: 73px;
+        height: 22px;
+        left: 1445px;
+        top: 120px;
+        font-family: Libre Franklin;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 22px;
+        color: #ffffff;
+      }
+      .contact {
+        position: absolute;
+        width: 68px;
+        height: 22px;
+        left: 1645px;
+        top: 120px;
         font-family: Libre Franklin;
         font-style: normal;
         font-weight: normal;
@@ -25,7 +81,7 @@
       .logo {
         position: absolute;
         left: 120px;
-        margin: 165px 93px;
+        top: 120px;
         font-family: Libre Franklin;
         font-style: normal;
         font-weight: bold;
@@ -35,7 +91,7 @@
       }
     }
   }
-  .about {
+  .about1 {
     background-color: white;
     height: 544px;
     .aboutspan {
@@ -69,6 +125,22 @@
       line-height: 30px;
       text-align: justify;
       margin: 165px;
+    }
+  }
+  .skills1 {
+    display: flex;
+    background-color: #fffaf2;
+    height: 693px;
+    img {
+      align-content: center;
+      margin: 150px;
+    }
+    .skillstext {
+      font-family: Libre Franklin;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 24px;
+      line-height: 29px;
     }
   }
 }

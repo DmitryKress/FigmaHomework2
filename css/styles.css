@@ -16,8 +16,64 @@
   display: flex;
   justify-content: flex-end;
 }
-.container .main .navigation .menu {
-  margin: 165px 93px;
+.container .main .navigation .home {
+  position: absolute;
+  width: 52px;
+  height: 22px;
+  left: 845px;
+  top: 120px;
+  font-family: Libre Franklin;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 22px;
+  color: #ffffff;
+}
+.container .main .navigation .about {
+  position: absolute;
+  width: 53px;
+  height: 22px;
+  left: 1045px;
+  top: 120px;
+  font-family: Libre Franklin;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 22px;
+  color: #ffffff;
+}
+.container .main .navigation .skills {
+  position: absolute;
+  width: 44px;
+  height: 22px;
+  left: 1245px;
+  top: 120px;
+  font-family: Libre Franklin;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 22px;
+  color: #ffffff;
+}
+.container .main .navigation .portfolio {
+  position: absolute;
+  width: 73px;
+  height: 22px;
+  left: 1445px;
+  top: 120px;
+  font-family: Libre Franklin;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 22px;
+  color: #ffffff;
+}
+.container .main .navigation .contact {
+  position: absolute;
+  width: 68px;
+  height: 22px;
+  left: 1645px;
+  top: 120px;
   font-family: Libre Franklin;
   font-style: normal;
   font-weight: normal;
@@ -28,7 +84,7 @@
 .container .main .navigation .logo {
   position: absolute;
   left: 120px;
-  margin: 165px 93px;
+  top: 120px;
   font-family: Libre Franklin;
   font-style: normal;
   font-weight: bold;
@@ -36,11 +92,11 @@
   line-height: 29px;
   color: #ffffff;
 }
-.container .about {
+.container .about1 {
   background-color: white;
   height: 544px;
 }
-.container .about .aboutspan {
+.container .about1 .aboutspan {
   position: absolute;
   top: 900px;
   font-family: Libre Franklin;
@@ -50,7 +106,7 @@
   line-height: 29px;
   margin: 165px;
 }
-.container .about .textspan {
+.container .about1 .textspan {
   position: absolute;
   top: 1000px;
   font-family: Libre Franklin;
@@ -61,7 +117,7 @@
   text-align: justify;
   margin: 165px;
 }
-.container .about .textspan1 {
+.container .about1 .textspan1 {
   position: absolute;
   top: 1150px;
   font-family: Libre Franklin;
@@ -71,6 +127,22 @@
   line-height: 30px;
   text-align: justify;
   margin: 165px;
+}
+.container .skills1 {
+  display: flex;
+  background-color: #fffaf2;
+  height: 693px;
+}
+.container .skills1 img {
+  align-content: center;
+  margin: 150px;
+}
+.container .skills1 .skillstext {
+  font-family: Libre Franklin;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 29px;
 }
 
 /*# sourceMappingURL=styles.css.map */
