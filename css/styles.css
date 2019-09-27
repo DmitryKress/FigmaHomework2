@@ -12,9 +12,12 @@
   background-image: url("../img/Untitled-1.svg");
   background-size: cover;
 }
-.container .main .navigation .menu {
+.container .main .navigation {
   display: flex;
   justify-content: flex-end;
+}
+.container .main .navigation .menu {
+  margin: 165px 93px;
   font-family: Libre Franklin;
   font-style: normal;
   font-weight: normal;
@@ -23,6 +26,8 @@
   color: #ffffff;
 }
 .container .main .navigation .logo {
+  position: absolute;
+  left: 120px;
   margin: 165px 93px;
   font-family: Libre Franklin;
   font-style: normal;
@@ -30,6 +35,42 @@
   font-size: 24px;
   line-height: 29px;
   color: #ffffff;
+}
+.container .about {
+  background-color: white;
+  height: 544px;
+}
+.container .about .aboutspan {
+  position: absolute;
+  top: 900px;
+  font-family: Libre Franklin;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 29px;
+  margin: 165px;
+}
+.container .about .textspan {
+  position: absolute;
+  top: 1000px;
+  font-family: Libre Franklin;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 30px;
+  text-align: justify;
+  margin: 165px;
+}
+.container .about .textspan1 {
+  position: absolute;
+  top: 1150px;
+  font-family: Libre Franklin;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 30px;
+  text-align: justify;
+  margin: 165px;
 }
 
 /*# sourceMappingURL=styles.css.map */
