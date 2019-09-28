@@ -1,181 +1,31 @@
-* {
-  font-family: "Poppins", sans-serif;
+html {
+  box-sizing: border-box;
 }
 
 .container {
   width: 100%;
-  .main {
+  margin: 0 auto;
+  float: none;
+  background-color: #fff;
+  .row {
     width: 100%;
-    height: 100vh;
-    background: rgba(198, 108, 73, 0.3);
-    background-image: url("../img/Untitled-1.svg");
-    background-size: cover;
-    .navigation {
-      display: flex;
-      justify-content: flex-end;
-      .home {
-        position: absolute;
-        width: 52px;
-        height: 22px;
-        left: 845px;
-        top: 120px;
-        font-family: Libre Franklin;
-        font-style: normal;
-        font-weight: bold;
-        font-size: 18px;
-        line-height: 22px;
-        color: #ffffff;
-      }
-      .about {
-        position: absolute;
-        width: 53px;
-        height: 22px;
-        left: 1045px;
-        top: 120px;
-        font-family: Libre Franklin;
-        font-style: normal;
-        font-weight: normal;
-        font-size: 18px;
-        line-height: 22px;
-        color: #ffffff;
-      }
-      .skills {
-        position: absolute;
-        width: 44px;
-        height: 22px;
-        left: 1245px;
-        top: 120px;
-        font-family: Libre Franklin;
-        font-style: normal;
-        font-weight: normal;
-        font-size: 18px;
-        line-height: 22px;
-        color: #ffffff;
-      }
-      .portfolio {
-        position: absolute;
-        width: 73px;
-        height: 22px;
-        left: 1445px;
-        top: 120px;
-        font-family: Libre Franklin;
-        font-style: normal;
-        font-weight: normal;
-        font-size: 18px;
-        line-height: 22px;
-        color: #ffffff;
-      }
-      .contact {
-        position: absolute;
-        width: 68px;
-        height: 22px;
-        left: 1645px;
-        top: 120px;
-        font-family: Libre Franklin;
-        font-style: normal;
-        font-weight: normal;
-        font-size: 18px;
-        line-height: 22px;
-        color: #ffffff;
-      }
-      .logo {
-        position: absolute;
-        left: 120px;
-        top: 120px;
-        font-family: Libre Franklin;
-        font-style: normal;
-        font-weight: bold;
-        font-size: 24px;
-        line-height: 29px;
-        color: #ffffff;
-      }
-    }
-  }
-  .about1 {
-    background-color: white;
-    height: 544px;
-    .aboutspan {
-      position: absolute;
-      top: 900px;
-      font-family: Libre Franklin;
-      font-style: normal;
-      font-weight: bold;
-      font-size: 24px;
-      line-height: 29px;
-      margin: 165px;
-    }
-    .textspan {
-      position: absolute;
-      top: 1000px;
-      font-family: Libre Franklin;
-      font-style: normal;
-      font-weight: normal;
-      font-size: 18px;
-      line-height: 30px;
-      text-align: justify;
-      margin: 165px;
-    }
-    .textspan1 {
-      position: absolute;
-      top: 1150px;
-      font-family: Libre Franklin;
-      font-style: normal;
-      font-weight: normal;
-      font-size: 18px;
-      line-height: 30px;
-      text-align: justify;
-      margin: 165px;
-    }
-  }
-  .skills1 {
     display: flex;
-    background-color: #fffaf2;
-    height: 693px;
-    flex-flow: column;
-    img {
-      position: absolute;
-      align-content: center;
-      margin: 150px;
-      background-size: cover;
-    }
-    .skillstext {
-      position: absolute;
-      left: 3%;
-      top: 155%;
-      font-family: Libre Franklin;
-      font-style: normal;
-      font-weight: bold;
-      font-size: 24px;
-      line-height: 29px;
-      margin: 100px;
-    }
-    .righttext1 {
-      font-family: Libre Franklin;
-      font-style: normal;
-      font-weight: 600;
-      font-size: 18px;
-      line-height: 25px;
-    }
-    .righttext2 {
-      font-family: Libre Franklin;
-      font-style: normal;
-      font-weight: normal;
-      font-size: 18px;
-      line-height: 25px;
-    }
-    .profile1 {
-      position: absolute;
-      width: 58px;
-      height: 25px;
-      left: 530px;
-      top: 180%;
-    }
-    .front-end {
-      position: absolute;
-      width: 58px;
-      height: 25px;
-      left: 300px;
-      top: 170%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: aqua;
+    .col-1 {
+      width: 100%;
+      height: 768px;
+      background-image: url(../img/Untitled-1.svg);
+      .navigation {
+        justify-content: flex-end;
+        font-family: Libre Franklin;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 22px;
+        background-color: aqua;
+      }
     }
   }
 }
