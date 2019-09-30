@@ -1,4 +1,3 @@
-@charset "UTF-8";
 html {
   box-sizing: border-box;
 }
@@ -146,7 +145,7 @@ html {
 .container .skillsblock .skillsmain {
   display: flex;
   justify-content: flex-start;
-  margin-right: 800px;
+  margin-right: 1135px;
   font-family: Libre Franklin;
   font-style: normal;
   font-weight: bold;
@@ -154,12 +153,13 @@ html {
   line-height: 29px;
 }
 .container .skillsblock .skillsbasic {
+  margin-right: 110px;
   margin-top: 50px;
   display: flex;
   flex-flow: row;
 }
 .container .skillsblock .skillsbasic .img {
-  margin-right: 250px;
+  margin-right: 220px;
 }
 .container .skillsblock .skillsbasic .information {
   display: flex;
@@ -189,20 +189,6 @@ html {
   display: flex;
   flex-flow: row;
   margin: 20px 20px;
-  /* докончить строку
-  .bar1 {
-    .bar1-1 {
-      background-color: #f5d6ab;
-      height: 24px;
-      width: 400px;
-    }
-    .bar1-2 {
-      background-color: #c66c49;
-      height: 24px;
-      width: 350px;
-    }
-  }
-  */
 }
 .container .skillsblock .skillsbasic .information .information2 .research {
   font-family: Libre Franklin;
@@ -210,6 +196,22 @@ html {
   font-weight: 600;
   font-size: 18px;
   line-height: 25px;
+}
+.container .skillsblock .skillsbasic .information .information2 .bar1 {
+  display: flex;
+  margin-left: 50px;
+}
+.container .skillsblock .skillsbasic .information .information2 .bar1 .bar1-1 {
+  background-color: #f5d6ab;
+  height: 24px;
+  width: 400px;
+}
+.container .skillsblock .skillsbasic .information .information2 .bar1 .bar1-2 {
+  position: relative;
+  right: 400px;
+  background-color: #c66c49;
+  height: 24px;
+  width: 350px;
 }
 .container .portfolioblock {
   height: 822px;
@@ -240,7 +242,7 @@ html {
 .container .portfolioblock .info .research1 {
   display: flex;
   flex-flow: column;
-  margin-bottom: 450px;
+  margin-bottom: 120px;
 }
 .container .portfolioblock .info .research1 .research2 {
   font-family: Libre Franklin;
@@ -258,6 +260,14 @@ html {
   font-size: 18px;
   line-height: 30px;
   text-align: justify;
+}
+.container .portfolioblock .info .research1 .arrow {
+  display: flex;
+  flex-flow: row;
+  margin-top: 270px;
+}
+.container .portfolioblock .info .research1 .arrow .arrow1 {
+  margin-right: 30px;
 }
 .container .portfolioblock .images {
   display: flex;
@@ -282,6 +292,84 @@ html {
 }
 .container .portfolioblock .images .imgcol2 .img3 {
   margin-right: 25px;
+}
+.container .getintouch {
+  height: 528px;
+  background-color: #fffaf2;
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+  align-items: center;
+}
+.container .getintouch .getintouchmain-texts1 {
+  display: flex;
+  flex-flow: column;
+  margin-right: 400px;
+}
+.container .getintouch .getintouchmain-texts1 .get-in-touch-main {
+  font-family: Libre Franklin;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 29px;
+  margin-bottom: 50px;
+}
+.container .getintouch .getintouchmain-texts1 .texts1 {
+  font-family: Libre Franklin;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 22px;
+}
+.container .getintouch .getintouchmain-texts1 .texts1 .dribbble {
+  margin-bottom: 10px;
+}
+.container .getintouch .getintouchmain-texts1 .texts1 .behance {
+  margin-bottom: 10px;
+}
+.container .getintouch .getintouchmain-texts1 .texts1 .codepen {
+  margin-bottom: 10px;
+}
+.container .getintouch .getintouchmain-texts1 .texts1 .github {
+  margin-bottom: 10px;
+}
+.container .getintouch .texts2 {
+  display: flex;
+  flex-flow: column;
+  margin-top: 50px;
+  margin-right: 400px;
+  font-family: Libre Franklin;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 22px;
+}
+.container .getintouch .texts2 .linkedln {
+  margin-bottom: 10px;
+}
+.container .getintouch .texts2 .facebook {
+  margin-bottom: 10px;
+}
+.container .getintouch .texts2 .instagram {
+  margin-bottom: 10px;
+}
+.container .getintouch .texts3 {
+  display: flex;
+  flex-flow: column;
+  margin-bottom: 25px;
+  font-family: Libre Franklin;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 22px;
+}
+.container .getintouch .texts3 .mail {
+  margin-bottom: 10px;
+}
+.container .getintouch .back-to-top {
+  display: flex;
+  margin-left: 100px;
+  margin-top: 300px;
 }
 
 /*# sourceMappingURL=styles.css.map */

@@ -145,7 +145,7 @@ html {
     .skillsmain {
       display: flex;
       justify-content: flex-start;
-      margin-right: 800px;
+      margin-right: 1135px;
       font-family: Libre Franklin;
       font-style: normal;
       font-weight: bold;
@@ -153,11 +153,12 @@ html {
       line-height: 29px;
     }
     .skillsbasic {
+      margin-right: 110px;
       margin-top: 50px;
       display: flex;
       flex-flow: row;
       .img {
-        margin-right: 250px;
+        margin-right: 220px;
       }
       .information {
         display: flex;
@@ -193,20 +194,22 @@ html {
             font-size: 18px;
             line-height: 25px;
           }
-          /* докончить строку
           .bar1 {
+            display: flex;
+            margin-left: 50px;
             .bar1-1 {
               background-color: #f5d6ab;
               height: 24px;
               width: 400px;
             }
             .bar1-2 {
+              position: relative;
+              right: 400px;
               background-color: #c66c49;
               height: 24px;
               width: 350px;
             }
           }
-          */
         }
       }
     }
@@ -238,7 +241,7 @@ html {
       .research1 {
         display: flex;
         flex-flow: column;
-        margin-bottom: 450px;
+        margin-bottom: 120px;
         .research2 {
           font-family: Libre Franklin;
           font-style: normal;
@@ -255,6 +258,14 @@ html {
           font-size: 18px;
           line-height: 30px;
           text-align: justify;
+        }
+        .arrow {
+          display: flex;
+          flex-flow: row;
+          margin-top: 270px;
+          .arrow1 {
+            margin-right: 30px;
+          }
         }
       }
     }
@@ -282,6 +293,84 @@ html {
           margin-right: 25px;
         }
       }
+    }
+  }
+  .getintouch {
+    height: 528px;
+    background-color: #fffaf2;
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+    .getintouchmain-texts1 {
+      display: flex;
+      flex-flow: column;
+      margin-right: 400px;
+      .get-in-touch-main {
+        font-family: Libre Franklin;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 29px;
+        margin-bottom: 50px;
+      }
+      .texts1 {
+        font-family: Libre Franklin;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 22px;
+        .dribbble {
+          margin-bottom: 10px;
+        }
+        .behance {
+          margin-bottom: 10px;
+        }
+        .codepen {
+          margin-bottom: 10px;
+        }
+        .github {
+          margin-bottom: 10px;
+        }
+      }
+    }
+    .texts2 {
+      display: flex;
+      flex-flow: column;
+      margin-top: 50px;
+      margin-right: 400px;
+      font-family: Libre Franklin;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 18px;
+      line-height: 22px;
+      .linkedln {
+        margin-bottom: 10px;
+      }
+      .facebook {
+        margin-bottom: 10px;
+      }
+      .instagram {
+        margin-bottom: 10px;
+      }
+    }
+    .texts3 {
+      display: flex;
+      flex-flow: column;
+      margin-bottom: 25px;
+      font-family: Libre Franklin;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 18px;
+      line-height: 22px;
+      .mail {
+        margin-bottom: 10px;
+      }
+    }
+    .back-to-top {
+      display: flex;
+      margin-left: 100px;
+      margin-top: 300px;
     }
   }
 }
