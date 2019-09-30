@@ -1,3 +1,4 @@
+@charset "UTF-8";
 html {
   box-sizing: border-box;
 }
@@ -188,6 +189,20 @@ html {
   display: flex;
   flex-flow: row;
   margin: 20px 20px;
+  /* докончить строку
+  .bar1 {
+    .bar1-1 {
+      background-color: #f5d6ab;
+      height: 24px;
+      width: 400px;
+    }
+    .bar1-2 {
+      background-color: #c66c49;
+      height: 24px;
+      width: 350px;
+    }
+  }
+  */
 }
 .container .skillsblock .skillsbasic .information .information2 .research {
   font-family: Libre Franklin;
@@ -196,16 +211,77 @@ html {
   font-size: 18px;
   line-height: 25px;
 }
-.container .skillsblock .skillsbasic .information .information2 .bar1 .bar1-1 {
-  margin: -5px -5px;
-  background-color: #f5d6ab;
-  height: 24px;
-  width: 400px;
+.container .portfolioblock {
+  height: 822px;
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  margin-right: 150px;
 }
-.container .skillsblock .skillsbasic .information .information2 .bar1 .bar1-2 {
-  background-color: #c66c49;
-  height: 24px;
-  width: 350px;
+.container .portfolioblock .info {
+  display: flex;
+  flex-flow: column;
+  margin-right: 100px;
+}
+.container .portfolioblock .info .portfoliomain {
+  display: flex;
+  flex-flow: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-bottom: 80px;
+  font-family: Libre Franklin;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 29px;
+}
+.container .portfolioblock .info .research1 {
+  display: flex;
+  flex-flow: column;
+  margin-bottom: 450px;
+}
+.container .portfolioblock .info .research1 .research2 {
+  font-family: Libre Franklin;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 25px;
+  margin-bottom: 50px;
+}
+.container .portfolioblock .info .research1 .text3 {
+  width: 300px;
+  font-family: Libre Franklin;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 30px;
+  text-align: justify;
+}
+.container .portfolioblock .images {
+  display: flex;
+  flex-wrap: wrap;
+  flex-flow: column;
+}
+.container .portfolioblock .images .imgcol1 {
+  display: flex;
+  flex-wrap: wrap;
+  flex-flow: row;
+}
+.container .portfolioblock .images .imgcol1 .img1 {
+  margin-right: 25px;
+}
+.container .portfolioblock .images .imgcol1 .img2 {
+  margin-bottom: 25px;
+}
+.container .portfolioblock .images .imgcol2 {
+  display: flex;
+  flex-wrap: wrap;
+  flex-flow: row;
+}
+.container .portfolioblock .images .imgcol2 .img3 {
+  margin-right: 25px;
 }
 
 /*# sourceMappingURL=styles.css.map */

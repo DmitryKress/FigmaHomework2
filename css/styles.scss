@@ -193,9 +193,9 @@ html {
             font-size: 18px;
             line-height: 25px;
           }
+          /* докончить строку
           .bar1 {
             .bar1-1 {
-              margin: -5px -5px;
               background-color: #f5d6ab;
               height: 24px;
               width: 400px;
@@ -206,6 +206,80 @@ html {
               width: 350px;
             }
           }
+          */
+        }
+      }
+    }
+  }
+  .portfolioblock {
+    height: 822px;
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    margin-right: 150px;
+    .info {
+      display: flex;
+      flex-flow: column;
+      margin-right: 100px;
+      .portfoliomain {
+        display: flex;
+        flex-flow: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        margin-bottom: 80px;
+        font-family: Libre Franklin;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 29px;
+      }
+      .research1 {
+        display: flex;
+        flex-flow: column;
+        margin-bottom: 450px;
+        .research2 {
+          font-family: Libre Franklin;
+          font-style: normal;
+          font-weight: 600;
+          font-size: 18px;
+          line-height: 25px;
+          margin-bottom: 50px;
+        }
+        .text3 {
+          width: 300px;
+          font-family: Libre Franklin;
+          font-style: normal;
+          font-weight: normal;
+          font-size: 18px;
+          line-height: 30px;
+          text-align: justify;
+        }
+      }
+    }
+    .images {
+      display: flex;
+      flex-wrap: wrap;
+      flex-flow: column;
+      .imgcol1 {
+        display: flex;
+        flex-wrap: wrap;
+        flex-flow: row;
+        .img1 {
+          margin-right: 25px;
+        }
+        .img2 {
+          margin-bottom: 25px;
+        }
+      }
+      .imgcol2 {
+        display: flex;
+        flex-wrap: wrap;
+        flex-flow: row;
+        // убрать пустоту между .img1 и .img3
+        .img3 {
+          margin-right: 25px;
         }
       }
     }
