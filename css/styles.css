@@ -8,26 +8,204 @@ html {
   float: none;
   background-color: #fff;
 }
-.container .row {
-  width: 100%;
+.container .hero-block-1 {
+  background: no-repeat, rgba(198, 108, 73, 0.4);
+  background-image: url(../img/Untitled-1.svg);
+  background-size: cover;
+  height: 768px;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   flex-wrap: wrap;
   background-color: aqua;
+  justify-content: space-around;
 }
-.container .row .col-1 {
+.container .hero-block-1 .header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
   width: 100%;
-  height: 768px;
-  background-image: url(../img/Untitled-1.svg);
+  height: 20%;
 }
-.container .row .col-1 .navigation {
+.container .hero-block-1 .header .portfolio {
+  margin: 200px;
+  display: flex;
+  font-family: Libre Franklin;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 29px;
+  color: #ffffff;
+}
+.container .hero-block-1 .header .navigation {
+  display: flex;
+  margin-right: 400px;
+  width: 100%;
   justify-content: flex-end;
+  margin-block-end: 10px;
   font-family: Libre Franklin;
   font-style: normal;
   font-weight: bold;
   font-size: 18px;
   line-height: 22px;
-  background-color: aqua;
+  color: #ffffff;
+}
+.container .hero-block-1 .header .navigation .home {
+  margin-left: 59px;
+}
+.container .hero-block-1 .header .navigation .about {
+  margin-left: 59px;
+}
+.container .hero-block-1 .header .navigation .skills {
+  margin-left: 59px;
+}
+.container .hero-block-1 .header .navigation .portfolio2 {
+  margin-left: 59px;
+}
+.container .hero-block-1 .header .navigation .contact {
+  margin-left: 59px;
+}
+.container .hero-block-1 .texts {
+  display: flex;
+  flex-flow: column nowrap;
+  margin-left: 200px;
+  justify-content: center;
+}
+.container .hero-block-1 .texts .hidesigner .hi {
+  font-family: Libre Franklin;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 64px;
+  line-height: 78px;
+  color: white;
+}
+.container .hero-block-1 .texts .hidesigner .designer {
+  font-family: Libre Franklin;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 29px;
+  color: white;
+}
+.container .hero-block-1 .texts .latest {
+  margin-top: 100px;
+  font-family: Libre Franklin;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 22px;
+  text-decoration-line: underline;
+  color: white;
+}
+.container .aboutblock {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: flex-start;
+  align-content: center;
+  margin: 70px 70px;
+  height: 544px;
+}
+.container .aboutblock .aboutmain {
+  margin: 50px 50px;
+  margin-bottom: 50px;
+  font-family: Libre Franklin;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 29px;
+  color: #333333;
+}
+.container .aboutblock .text {
+  margin: 50px 50px;
+  font-family: Libre Franklin;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 30px;
+  text-align: justify;
+}
+.container .aboutblock .text .text1 {
+  font-family: Libre Franklin;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 30px;
+  text-align: justify;
+}
+.container .aboutblock .text .text2 {
+  margin-top: 30px;
+}
+.container .skillsblock {
+  height: 693px;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  background-color: #fffaf2;
+}
+.container .skillsblock .skillsmain {
+  display: flex;
+  justify-content: flex-start;
+  margin-right: 800px;
+  font-family: Libre Franklin;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 29px;
+}
+.container .skillsblock .skillsbasic {
+  margin-top: 50px;
+  display: flex;
+  flex-flow: row;
+}
+.container .skillsblock .skillsbasic .img {
+  margin-right: 250px;
+}
+.container .skillsblock .skillsbasic .information {
+  display: flex;
+  flex-flow: column nowrap;
+}
+.container .skillsblock .skillsbasic .information .information1 {
+  display: flex;
+  flex-flow: row;
+  margin: 20px 20px;
+}
+.container .skillsblock .skillsbasic .information .information1 .profile {
+  font-family: Libre Franklin;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 25px;
+}
+.container .skillsblock .skillsbasic .information .information1 .front {
+  margin-left: 100px;
+  font-family: Libre Franklin;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 25px;
+}
+.container .skillsblock .skillsbasic .information .information2 {
+  display: flex;
+  flex-flow: row;
+  margin: 20px 20px;
+}
+.container .skillsblock .skillsbasic .information .information2 .research {
+  font-family: Libre Franklin;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 25px;
+}
+.container .skillsblock .skillsbasic .information .information2 .bar1 .bar1-1 {
+  margin: -5px -5px;
+  background-color: #f5d6ab;
+  height: 24px;
+  width: 400px;
+}
+.container .skillsblock .skillsbasic .information .information2 .bar1 .bar1-2 {
+  background-color: #c66c49;
+  height: 24px;
+  width: 350px;
 }
 
 /*# sourceMappingURL=styles.css.map */
