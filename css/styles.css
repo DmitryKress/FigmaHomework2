@@ -145,7 +145,7 @@ html {
 .container .skillsblock .skillsmain {
   display: flex;
   justify-content: flex-start;
-  margin-right: 1135px;
+  margin-right: 1270px;
   font-family: Libre Franklin;
   font-style: normal;
   font-weight: bold;
@@ -178,7 +178,7 @@ html {
   line-height: 25px;
 }
 .container .skillsblock .skillsbasic .information .information1 .front {
-  margin-left: 100px;
+  margin-left: 125px;
   font-family: Libre Franklin;
   font-style: normal;
   font-weight: normal;
@@ -199,19 +199,140 @@ html {
 }
 .container .skillsblock .skillsbasic .information .information2 .bar1 {
   display: flex;
-  margin-left: 50px;
+  margin-left: 75px;
 }
 .container .skillsblock .skillsbasic .information .information2 .bar1 .bar1-1 {
+  position: relative;
   background-color: #f5d6ab;
   height: 24px;
   width: 400px;
 }
 .container .skillsblock .skillsbasic .information .information2 .bar1 .bar1-2 {
-  position: relative;
-  right: 400px;
+  position: absolute;
+  right: 479px;
   background-color: #c66c49;
   height: 24px;
   width: 350px;
+}
+.container .skillsblock .skillsbasic .information .information3 {
+  display: flex;
+  flex-flow: row;
+  margin: 20px 20px;
+}
+.container .skillsblock .skillsbasic .information .information3 .tools1 {
+  font-family: Libre Franklin;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 25px;
+}
+.container .skillsblock .skillsbasic .information .information3 .paper {
+  margin-left: 135px;
+  font-family: Libre Franklin;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 25px;
+}
+.container .skillsblock .skillsbasic .information .information4 {
+  display: flex;
+  flex-flow: row;
+  margin: 20px 20px;
+}
+.container .skillsblock .skillsbasic .information .information4 .design {
+  font-family: Libre Franklin;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 25px;
+}
+.container .skillsblock .skillsbasic .information .information4 .bar2 {
+  display: flex;
+  margin-left: 80px;
+}
+.container .skillsblock .skillsbasic .information .information4 .bar2 .bar2-1 {
+  margin-left: 20px;
+  position: relative;
+  background-color: #f5d6ab;
+  height: 24px;
+  width: 400px;
+}
+.container .skillsblock .skillsbasic .information .information4 .bar2 .bar2-2 {
+  position: absolute;
+  right: 509px;
+  background-color: #c66c49;
+  height: 24px;
+  width: 320px;
+}
+.container .skillsblock .skillsbasic .information .information5 {
+  display: flex;
+  flex-flow: row;
+  margin: 20px 20px;
+}
+.container .skillsblock .skillsbasic .information .information5 .tools2 {
+  font-family: Libre Franklin;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 25px;
+}
+.container .skillsblock .skillsbasic .information .information5 .adobe {
+  margin-left: 140px;
+  font-family: Libre Franklin;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 25px;
+}
+.container .skillsblock .skillsbasic .information .information6 {
+  display: flex;
+  flex-flow: row;
+  margin: 20px 20px;
+}
+.container .skillsblock .skillsbasic .information .information6 .dev {
+  font-family: Libre Franklin;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 25px;
+}
+.container .skillsblock .skillsbasic .information .information6 .bar3 {
+  display: flex;
+  margin-left: 65px;
+}
+.container .skillsblock .skillsbasic .information .information6 .bar3 .bar3-1 {
+  margin-right: 30px;
+  position: relative;
+  background-color: #f5d6ab;
+  height: 24px;
+  width: 400px;
+}
+.container .skillsblock .skillsbasic .information .information6 .bar3 .bar3-2 {
+  position: absolute;
+  right: 549px;
+  background-color: #c66c49;
+  height: 24px;
+  width: 280px;
+}
+.container .skillsblock .skillsbasic .information .information7 {
+  display: flex;
+  flex-flow: row;
+  margin: 20px 20px;
+}
+.container .skillsblock .skillsbasic .information .information7 .tools3 {
+  font-family: Libre Franklin;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 25px;
+}
+.container .skillsblock .skillsbasic .information .information7 .html {
+  margin-left: 140px;
+  font-family: Libre Franklin;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 25px;
 }
 .container .portfolioblock {
   height: 822px;
@@ -273,6 +394,7 @@ html {
   display: flex;
   flex-wrap: wrap;
   flex-flow: column;
+  margin-left: 140px;
 }
 .container .portfolioblock .images .imgcol1 {
   display: flex;

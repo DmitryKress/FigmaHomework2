@@ -145,7 +145,7 @@ html {
     .skillsmain {
       display: flex;
       justify-content: flex-start;
-      margin-right: 1135px;
+      margin-right: 1270px;
       font-family: Libre Franklin;
       font-style: normal;
       font-weight: bold;
@@ -175,7 +175,7 @@ html {
             line-height: 25px;
           }
           .front {
-            margin-left: 100px;
+            margin-left: 125px;
             font-family: Libre Franklin;
             font-style: normal;
             font-weight: normal;
@@ -196,19 +196,140 @@ html {
           }
           .bar1 {
             display: flex;
-            margin-left: 50px;
+            margin-left: 75px;
             .bar1-1 {
+              position: relative;
               background-color: #f5d6ab;
               height: 24px;
               width: 400px;
             }
             .bar1-2 {
-              position: relative;
-              right: 400px;
+              position: absolute;
+              right: 479px;
               background-color: #c66c49;
               height: 24px;
               width: 350px;
             }
+          }
+        }
+        .information3 {
+          display: flex;
+          flex-flow: row;
+          margin: 20px 20px;
+          .tools1 {
+            font-family: Libre Franklin;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 18px;
+            line-height: 25px;
+          }
+          .paper {
+            margin-left: 135px;
+            font-family: Libre Franklin;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 18px;
+            line-height: 25px;
+          }
+        }
+        .information4 {
+          display: flex;
+          flex-flow: row;
+          margin: 20px 20px;
+          .design {
+            font-family: Libre Franklin;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 18px;
+            line-height: 25px;
+          }
+          .bar2 {
+            display: flex;
+            margin-left: 80px;
+            .bar2-1 {
+              margin-left: 20px;
+              position: relative;
+              background-color: #f5d6ab;
+              height: 24px;
+              width: 400px;
+            }
+            .bar2-2 {
+              position: absolute;
+              right: 509px;
+              background-color: #c66c49;
+              height: 24px;
+              width: 320px;
+            }
+          }
+        }
+        .information5 {
+          display: flex;
+          flex-flow: row;
+          margin: 20px 20px;
+          .tools2 {
+            font-family: Libre Franklin;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 18px;
+            line-height: 25px;
+          }
+          .adobe {
+            margin-left: 140px;
+            font-family: Libre Franklin;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 18px;
+            line-height: 25px;
+          }
+        }
+        .information6 {
+          display: flex;
+          flex-flow: row;
+          margin: 20px 20px;
+          .dev {
+            font-family: Libre Franklin;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 18px;
+            line-height: 25px;
+          }
+          .bar3 {
+            display: flex;
+            margin-left: 65px;
+            .bar3-1 {
+              margin-right: 30px;
+              position: relative;
+              background-color: #f5d6ab;
+              height: 24px;
+              width: 400px;
+            }
+            .bar3-2 {
+              position: absolute;
+              right: 549px;
+              background-color: #c66c49;
+              height: 24px;
+              width: 280px;
+            }
+          }
+        }
+        .information7 {
+          display: flex;
+          flex-flow: row;
+          margin: 20px 20px;
+          .tools3 {
+            font-family: Libre Franklin;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 18px;
+            line-height: 25px;
+          }
+          .html {
+            margin-left: 140px;
+            font-family: Libre Franklin;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 18px;
+            line-height: 25px;
           }
         }
       }
@@ -273,6 +394,7 @@ html {
       display: flex;
       flex-wrap: wrap;
       flex-flow: column;
+      margin-left: 140px;
       .imgcol1 {
         display: flex;
         flex-wrap: wrap;
